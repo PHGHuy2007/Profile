@@ -8,12 +8,12 @@
         </button>
         
         <div class="flex md:order-2 fadein-bot items-center space-x-4">
-          <a href="https://github.com/rakha-elctrnx" target="_blank" rel="noopener noreferrer">
-            <img class="w-9 rounded-full hover:opacity-80 transition-opacity duration-300" src="https://seeklogo.com/images/G/github-logo-2E3852456C-seeklogo.com.png" alt="github">
+          <a href="https://github.com/PHGHuy2007" target="_blank" rel="noopener noreferrer">
+            <img class="w-9 rounded-full hover:opacity-80 transition-opacity duration-300" src="https://i.ibb.co/cSqZ0x0m/github-brands-solid.png" alt="github">
           </a>
           
           <a href="LINK_FACEBOOK_CỦA_BẠN_VÀO_ĐÂY" target="_blank" rel="noopener noreferrer">
-            <img class="w-9 rounded-full hover:opacity-80 transition-opacity duration-300" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" alt="facebook">
+            <img class="w-9 rounded-full hover:opacity-80 transition-opacity duration-300" src="https://i.ibb.co/d0MNfHWC/facebook-brands-solid.png" alt="facebook">
           </a>
         </div>
 
