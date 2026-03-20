@@ -6,87 +6,82 @@ export default {
       tech: [
         {
           id: 1,
-          name: 'HTML',
-          imageUrl: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
-          status: 'Advanced',
-          link: 'https://developer.mozilla.org/en-US/docs/Web/HTML'
+          name: 'Facebook',
+          imageUrl: 'https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/facebook-round-color-icon.png',
+          status: 'Phan Hoàng Gia Huy',
+          link: 'https://www.facebook.com/GiaHuyPH'
         },
         {
           id: 2,
-          name: 'CSS',
-          imageUrl: 'https://cdn-icons-png.flaticon.com/512/732/732190.png',
-          status: 'Advanced',
-          link: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
+          name: 'Instagram',
+          imageUrl: 'src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/ig-instagram-icon.png"',
+          status: 'phghuy2007',
+          link: 'https://www.instagram.com/phghuy2007/'
         },
         {
           id: 3,
-          name: 'PHP',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-php-2038871-1720084.png',
-          status: 'Advanced',
-          link: 'https://www.php.net/'
+          name: 'Zalo',
+          imageUrl: 'https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/zalo-icon.png',
+          status: '0974705778',
         },
         {
           id: 4,
-          name: 'Javascript',
-          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
-          status: 'Advance',
-          link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
+          name: 'Discord',
+          imageUrl: 'https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/discord-round-color-icon.png',
+          status: 'phghuy',
+          link: 'https://discord.com/users/547053907440959499'
         },
         {
           id: 5,
-          name: 'Laravel',
-          imageUrl: 'https://cdn.worldvectorlogo.com/logos/laravel-2.svg',
-          status: 'Advance',
-          link: 'https://laravel.com/'
+          name: 'Steam',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/2048px-Steam_icon_logo.svg.png',
+          status: 'phghuy',
+          link: 'https://steamcommunity.com/profiles/765611993791914989'
         },
         {
           id: 6,
-          name: 'Codeigniter',
-          imageUrl: 'https://cdn-peanutsquare.b-cdn.net/wp-content/uploads/2022/11/codeigniter-logo.png',
-          status: 'Intermediate',
-          link: 'https://codeigniter.com/'
+          name: 'Github',
+          imageUrl: 'https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/github-icon.png',
+          status: 'PHGHuy2007',
+          link: 'https://github.com/PHGHuy2007'
         },
         {
           id: 7,
-          name: 'VueJS',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp',
-          status: 'Intermediate',
-          link: 'https://vuejs.org/'
+          name: 'Locket',
+          imageUrl: 'https://ineqe.com/wp-content/uploads/2022/02/locket_app_icon-1024x1024.png',
+          status: 'phghuy',
+          link: 'https://locket.camera/invites/buFB4mYtiEO8Kwza7p0RHbjPIMp1e6e8c6bc68ad4365?type=Link&variant=1002&social_title=Th%C3%AAm+t%C3%B4i+tr%C3%AAn+Locket+%F0%9F%92%9B&social_desc=T%C3%B4i+mu%E1%BB%91n+th%C3%AAm+b%E1%BA%A1n+v%C3%A0o+M%C3%A0n+h%C3%ACnh+ch%C3%ADnh+c%E1%BB%A7a+t%C3%B4i+qua+Locket.+Ch%E1%BA%A1m+v%C3%A0o+li%C3%AAn+k%E1%BA%BFt+%C4%91%E1%BB%83+ch%E1%BA%A5p+nh%E1%BA%ADn.&social_img=https://firebasestorage.googleapis.com:443/v0/b/locket-img/o/users%252FbuFB4mYtiEO8Kwza7p0RHbjPIMp1%252Fpublic%252Finvite_link_previews%252F1725037283.5904322.webp?alt%3Dmedia%26token%3D071f79af-c109-46bb-ae13-64e6bedb5065&lang=vi'
         },
         {
           id: 8,
-          name: 'AlpineJS',
-          imageUrl: 'https://avatars.githubusercontent.com/u/59030169?s=200&v=4',
+          name: 'Tiktok',
+          imageUrl: 'https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/32f2ab89bf0d9acee8ff3021890559a7.png',
           status: 'Beginner',
-          link: 'https://alpinejs.dev/'
+          link: 'https://www.tiktok.com/@phghuy2k7'
         },
         {
           id: 9,
-          name: 'NodeJS',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png',
-          status: 'Beginner',
-          link: 'https://nodejs.org/'
+          name: 'Vietcombank',
+          imageUrl: 'https://i.imgur.com/ljqYXCE.png',
+          status: '1033238721',
         },
         {
           id: 10,
-          name: 'Tailwind',
-          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg',
-          status: 'Advance',
-          link: 'https://tailwindcss.com/'
+          name: 'Valorant',
+          imageUrl: 'https://i.imgur.com/2SV8Yfq.png',
+          status: 'PHGHuy#VN2',
         },
         {
           id: 11,
-          name: 'Bootstrap',
-          imageUrl: 'https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png',
-          status: 'Intermediate',
-          link: 'https://getbootstrap.com/'
+          name: 'LiênQuân',
+          imageUrl: 'https://i.imgur.com/r6K5bRP.png',
+          status: 'Huychaidim',
         },
         {
           id: 12,
-          name: 'ReactJS',
-          imageUrl: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
-          status: 'Beginner',
-          link: 'https://react.dev/'
+          name: 'FreeFire',
+          imageUrl: 'https://i.imgur.com/kLg3bVO.png',
+          status: '?',
         }
       ],
       tools: [
@@ -184,11 +179,11 @@ export default {
           <ul class="flex flex-wrap text-sm font-medium text-center text-gray-500 dark:text-gray-400 mb-5">
             <li class="mr-2">
               <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
-                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 1 }" @click="activeTab = 1">Tech Stack</button>
+                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 1 }" @click="activeTab = 1">Network, Game</button>
             </li>
             <li class="mr-2">
               <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
-                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 2 }" @click="activeTab = 2">Tools</button>
+                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 2 }" @click="activeTab = 2">Skills</button>
             </li>
           </ul>
         </div>
