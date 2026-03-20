@@ -14,7 +14,7 @@ export default {
         {
           id: 2,
           name: 'Instagram',
-          imageUrl: 'src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/ig-instagram-icon.png"',
+          imageUrl: 'src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/ig-instagram-icon.png',
           status: 'phghuy2007',
           link: 'https://www.instagram.com/phghuy2007/'
         },
