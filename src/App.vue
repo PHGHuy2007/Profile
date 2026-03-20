@@ -8,12 +8,12 @@
         </button>
         
         <div class="flex md:order-2 fadein-bot items-center space-x-4">
-          <a href="https://github.com/PHGHuy2007" target="_blank" rel="noopener noreferrer">
-            <img class="w-9 rounded-full hover:opacity-80 transition-opacity duration-300" src="https://i.ibb.co/cSqZ0x0m/github-brands-solid.png" alt="github">
+          <a href="https://www.facebook.com/GiaHuyPH" target="_blank" rel="noopener noreferrer">
+            <img class="w-9 rounded-full hover:opacity-80 transition-opacity duration-300" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/facebook-app-round-white-icon.png" alt="github">
           </a>
           
-          <a href="LINK_FACEBOOK_CỦA_BẠN_VÀO_ĐÂY" target="_blank" rel="noopener noreferrer">
-            <img class="w-9 rounded-full hover:opacity-80 transition-opacity duration-300" src="https://i.ibb.co/d0MNfHWC/facebook-brands-solid.png" alt="facebook">
+          <a href="https://phghuy.id.vn/" target="_blank" rel="noopener noreferrer">
+            <img class="w-9 rounded-full hover:opacity-80 transition-opacity duration-300" src="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/camera-icon.png" alt="facebook">
           </a>
         </div>
 
