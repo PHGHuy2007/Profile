@@ -1,6 +1,4 @@
 <template>
-  <!-- component -->
-  <!-- This is an example component -->
   <div class="max-w-7xl mx-auto flex flex-col relative">
 
     <nav class="max-w-7xl px-5 md:fixed top-0 z-[98] w-screen backdrop-blur-md bg-[#121212] bg-opacity-80">
@@ -8,9 +6,17 @@
         <button @click="redirectToHome" class="flex">
           <span class="self-center text-lg text-[#ffdb70] font-semibold whitespace-nowrap fadein-bot hover:text-amber-100">PhanHoangGiaHuy</span>
         </button>
-        <div class="flex md:order-2 fadein-bot">
-          <a href="https://github.com/rakha-elctrnx"><img class="w-9 rounded-full" src="https://seeklogo.com/images/G/github-logo-2E3852456C-seeklogo.com.png" alt="github"></a>
+        
+        <div class="flex md:order-2 fadein-bot items-center space-x-4">
+          <a href="https://github.com/rakha-elctrnx" target="_blank" rel="noopener noreferrer">
+            <img class="w-9 rounded-full hover:opacity-80 transition-opacity duration-300" src="https://seeklogo.com/images/G/github-logo-2E3852456C-seeklogo.com.png" alt="github">
+          </a>
+          
+          <a href="LINK_FACEBOOK_CỦA_BẠN_VÀO_ĐÂY" target="_blank" rel="noopener noreferrer">
+            <img class="w-9 rounded-full hover:opacity-80 transition-opacity duration-300" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" alt="facebook">
+          </a>
         </div>
+
         <div class="hidden md:flex justify-between items-center w-full md:w-auto md:order-1" id="mobile-menu-3">
           <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
             <li>
