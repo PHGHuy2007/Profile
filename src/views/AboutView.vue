@@ -128,18 +128,15 @@ export default {
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Bagas Rakha Putra. I'm a web developer from Bogor, West Java. I
-            have 1 year of experience in back-end web development.
-            I really enjoy what I do right now, in my opinion, creating programs is not just a job, but also an art that
-            has
-            aesthetic value
+            &nbsp; &nbsp; &nbsp; Xin chào mọi người, mình tên là Phan Hoàng Gia Huy, hiện đang là sinh viên lập trình tại FPT Aptech. 
+            Mình đến từ Hồng Lĩnh, Hà Tĩnh và hiện đang sinh sống, học tập tại Cầu Diễn, Hà Nội. Mình là người độc thân, vui tính, 
+            dễ gần, thích chơi game, đá bóng, chụp ảnh, ăn uống và ca hát cùng bạn bè.
           </p>
           <p class="mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; My job is to build your website to be functional and user-friendly yet still attractive.
-            In addition, I provide a personal touch to your product and ensure that the website catches attention and is
-            easy to use.
-            My goal is to convey your message and identity in the most creative way. If you are interested in hiring me,
-            please contact the listed contact.
+            &nbsp; &nbsp; &nbsp; Hiện tại, ngoài việc học, mình còn làm freelance chụp ảnh – một công việc mình rất yêu thích 
+            vì vừa có thêm thu nhập vừa được thỏa sức sáng tạo. Mình cảm thấy khá hài lòng với cuộc sống hiện tại 
+            và luôn cố gắng phát triển bản thân hơn mỗi ngày. Dưới đây là một số trang mạng xã hội của mình, 
+            mọi người ghé qua ủng hộ và kết nối với mình nhé!
           </p>
         </div>
 
