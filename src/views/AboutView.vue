@@ -8,74 +8,85 @@ export default {
           id: 1,
           name: 'HTML',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
-          status: 'Advanced'
-          link: 'https://www.facebook.com/GiaHuyPH'
+          status: 'Advanced',
+          link: 'https://developer.mozilla.org/en-US/docs/Web/HTML'
         },
         {
           id: 2,
           name: 'CSS',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/732/732190.png',
-          status: 'Advanced'
+          status: 'Advanced',
+          link: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
         },
         {
           id: 3,
           name: 'PHP',
           imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-php-2038871-1720084.png',
-          status: 'Advanced'
+          status: 'Advanced',
+          link: 'https://www.php.net/'
         },
         {
           id: 4,
           name: 'Javascript',
           imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
-          status: 'Advance'
+          status: 'Advance',
+          link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
         },
         {
           id: 5,
           name: 'Laravel',
           imageUrl: 'https://cdn.worldvectorlogo.com/logos/laravel-2.svg',
-          status: 'Advance'
+          status: 'Advance',
+          link: 'https://laravel.com/'
         },
         {
           id: 6,
           name: 'Codeigniter',
           imageUrl: 'https://cdn-peanutsquare.b-cdn.net/wp-content/uploads/2022/11/codeigniter-logo.png',
-          status: 'Intermediate'
+          status: 'Intermediate',
+          link: 'https://codeigniter.com/'
         },
         {
           id: 7,
           name: 'VueJS',
           imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp',
-          status: 'Intermediate'
+          status: 'Intermediate',
+          link: 'https://vuejs.org/'
         },
         {
           id: 8,
           name: 'AlpineJS',
           imageUrl: 'https://avatars.githubusercontent.com/u/59030169?s=200&v=4',
-          status: 'Beginner'
+          status: 'Beginner',
+          link: 'https://alpinejs.dev/'
         },
         {
           id: 9,
           name: 'NodeJS',
           imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png',
-          status: 'Beginner'
+          status: 'Beginner',
+          link: 'https://nodejs.org/'
         },
         {
           id: 10,
           name: 'Tailwind',
           imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg',
-          status: 'Advance'
+          status: 'Advance',
+          link: 'https://tailwindcss.com/'
         },
         {
           id: 11,
           name: 'Bootstrap',
           imageUrl: 'https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png',
-          status: 'Intermediate'
+          status: 'Intermediate',
+          link: 'https://getbootstrap.com/'
         },
         {
           id: 12,
           name: 'ReactJS',
           imageUrl: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
-          status: 'Beginner'
+          status: 'Beginner',
+          link: 'https://react.dev/'
         }
       ],
       tools: [
@@ -83,34 +94,49 @@ export default {
           id: 1,
           name: 'Git',
           imageUrl: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png',
-          status: 'Version Control'
+          status: 'Version Control',
+          link: 'https://git-scm.com/'
         },
         {
           id: 2,
           name: 'GitHub',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/25/25231.png',
-          status: 'Git Hosting'
+          status: 'Git Hosting',
+          link: 'https://github.com/'
         },
         {
           id: 3,
           name: 'NPM',
           imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-npm-3-1175132.png',
-          status: 'Package Manager'
+          status: 'Package Manager',
+          link: 'https://www.npmjs.com/'
         },
         {
           id: 4,
           name: 'MySQL',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/5968/5968313.png',
-          status: 'Database'
+          status: 'Database',
+          link: 'https://www.mysql.com/'
         },
       ]
     };
+  },
+  methods: {
+    openLink(url) {
+      if (url) {
+        // Mở link ở một tab mới
+        window.open(url, '_blank');
+        
+        // Nếu bạn muốn dùng vue-router để chuyển trang nội bộ thì dùng dòng dưới thay thế:
+        // this.$router.push(url);
+      }
+    }
   }
 }
 </script>
+
 <template>
-  <div
-    class="bg-[#1e1e1f] px-5 py-5 md:px-12 md:py-10 text-left border border-[#383838] rounded-3xl text-amber-50 mx-3 mb-5">
+  <div class="bg-[#1e1e1f] px-5 py-5 md:px-12 md:py-10 text-left border border-[#383838] rounded-3xl text-amber-50 mx-3 mb-5">
     <article data-page="about">
 
       <header>
@@ -121,8 +147,7 @@ export default {
         </div>
       </header>
 
-      <section
-        class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
+      <section class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
         <div class="flex justify-center">
           <img class="w-9/12 rounded-full mb-3 fadein-up"
             src="https://i1.sndcdn.com/avatars-000214125831-5q6tdw-t500x500.jpg" alt="Foto">
@@ -140,7 +165,6 @@ export default {
             mọi người ghé qua ủng hộ và kết nối với mình nhé!
           </p>
         </div>
-
       </section>
 
     </article>
@@ -168,50 +192,51 @@ export default {
             </li>
           </ul>
         </div>
+        
         <div v-show="activeTab === 1">
           <div class="grid grid-cols-2 gap-4 pb-32 md:grid-cols-3 md:gap-8 xl:grid-cols-4 xl:gap-10 2xl:gap-12">
             <div v-for="item in tech" :key="item.id">
               <div
+                @click="openLink(item.link)"
                 class="item-tech flex cursor-pointer items-center gap-2 rounded border border-amber-200 px-2 py-2 hover:bg-amber-200 hover:bg-opacity-10 md:gap-3 lg:px-3">
-                @click="$router.push(item.link)"
                 <div class="flex h-12 w-12 items-center justify-center p-0 lg:h-16 lg:w-16 lg:p-2 zoom-in">
-                  <img alt="HTML" loading="lazy" width="32" height="32" decoding="async" data-nimg="1"
-                    class="img-tech drop-shadow-xl transition-all duration-300 h-[65%] w-[65%] lg:h-[85%] lg:w-[85%]  "
+                  <img :alt="item.name" loading="lazy" width="32" height="32" decoding="async" data-nimg="1"
+                    class="img-tech drop-shadow-xl transition-all duration-300 h-[65%] w-[65%] lg:h-[85%] lg:w-[85%]"
                     :src="item.imageUrl" style="color: transparent;">
                 </div>
                 <div class="flex items-center text-sm md:text-base lg:text-lg">
                   <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">{{ item.name }}
                   </div>
-                  <div
-                    class="status-tech opacity-0 absolute mt-5 text-[10px] text-amber-200 transition-all duration-300 md:text-xs lg:text-sm">
+                  <div class="status-tech opacity-0 absolute mt-5 text-[10px] text-amber-200 transition-all duration-300 md:text-xs lg:text-sm">
                     {{ item.status }}</div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
         <div v-show="activeTab === 2">
           <div class="grid grid-cols-2 gap-4 pb-32 md:grid-cols-3 md:gap-8 xl:grid-cols-4 xl:gap-10 2xl:gap-12">
             <div v-for="item in tools" :key="item.id">
               <div
+                @click="openLink(item.link)"
                 class="item-tech flex cursor-pointer items-center gap-2 rounded border border-amber-200 px-2 py-2 hover:bg-amber-200 hover:bg-opacity-10 md:gap-3 lg:px-3">
-                @click="$router.push(item.link)"
                 <div class="flex h-12 w-12 items-center justify-center p-0 lg:h-16 lg:w-16 lg:p-2 zoom-in">
-                  <img alt="HTML" loading="lazy" width="32" height="32" decoding="async" data-nimg="1"
-                    class="img-tech drop-shadow-xl transition-all duration-300 h-[65%] w-[65%] lg:h-[85%] lg:w-[85%]  "
+                  <img :alt="item.name" loading="lazy" width="32" height="32" decoding="async" data-nimg="1"
+                    class="img-tech drop-shadow-xl transition-all duration-300 h-[65%] w-[65%] lg:h-[85%] lg:w-[85%]"
                     :src="item.imageUrl" style="color: transparent;">
                 </div>
                 <div class="flex items-center text-sm md:text-base lg:text-lg">
                   <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">{{ item.name }}
                   </div>
-                  <div
-                    class="status-tech opacity-0 absolute mt-5 text-[10px] text-amber-200 transition-all duration-300 md:text-xs lg:text-sm">
+                  <div class="status-tech opacity-0 absolute mt-5 text-[10px] text-amber-200 transition-all duration-300 md:text-xs lg:text-sm">
                     {{ item.status }}</div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        
       </section>
     </article>
   </div>
