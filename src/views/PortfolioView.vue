@@ -8,8 +8,7 @@ export default {
           id: 1,
           name: 'Personal Website',
           imageUrl: 'portfolio_v2',
-          status: 'Trang web này là không gian cá nhân của tôi, nơi tôi chia sẻ những bức ảnh do chính mình thực hiện. Mỗi tấm hình đều là những khoảnh khắc tôi đã ghi lại trong quá trình làm việc và sáng tạo.
-Tôi tạo ra website này với mong muốn giúp khách hàng có thể dễ dàng xem, cảm nhận và lựa chọn những bộ ảnh phù hợp với nhu cầu của mình.',
+          status: 'Trang web này là không gian cá nhân của tôi, nơi tôi chia sẻ những bức ảnh do chính mình thực hiện. Mỗi tấm hình đều là những khoảnh khắc tôi đã ghi lại trong quá trình làm việc và sáng tạo. Tôi tạo ra website này với mong muốn giúp khách hàng có thể dễ dàng xem, cảm nhận và lựa chọn những bộ ảnh phù hợp với nhu cầu của mình.',
           tech: 'VueJS 3, Tailwind',
           github: 'https://github.com/rakha-elctrnx/Portofolio-v2',
           demo: 'https://bagasrakha.netlify.app/'
