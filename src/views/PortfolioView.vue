@@ -12,7 +12,7 @@ export default {
           Tôi tạo ra website này với mong muốn giúp khách hàng có thể dễ dàng xem, cảm nhận và lựa chọn những bộ ảnh phù hợp với nhu cầu của mình.',
           tech: 'VueJS 3, Tailwind',
           github: 'null',
-          demo: 'https://phghuy.id.vn/'
+          demo: 'https://phghuy.id.vn'
         },
       ]
     };
