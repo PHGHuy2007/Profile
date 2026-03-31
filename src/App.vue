@@ -8,7 +8,7 @@
         </button>
         
         <div class="flex md:order-2 fadein-bot items-center space-x-4">
-          <a href="https://phghuy.id.vn/" target="_blank" rel="noopener noreferrer">
+          <a href="https://phghuy.studio/" target="_blank" rel="noopener noreferrer">
             <img class="w-9 rounded-full hover:opacity-80 transition-opacity duration-300" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/pinterest-round-white-icon.png" alt="github">
           </a>
           
