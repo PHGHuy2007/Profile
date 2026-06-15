@@ -9,7 +9,7 @@ export default {
           name: 'Facebook',
           imageUrl: 'https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/facebook-round-color-icon.png',
           status: 'Phan Hoàng Gia Huy',
-          link: 'https://www.facebook.com/GiaHuyPH/'
+          link: 'https://www.facebook.com/'
         },
         {
           id: 2,
